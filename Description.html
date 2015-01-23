@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>IntelliScholar</title>
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=209858619141628";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '209858619141628', // App ID
+      channelUrl : '//homepages.iitb.ac.in/~pinakidey/CfS/channel.html', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document));
+</script>
+
+
+
+
+<h2 align="center" style="color:#393"><strong>IntelliScholar</strong></h2>
+<p align="center">&nbsp;</p>
+
+<p style="border:double; vertical-align:middle; padding:5px; height:25px; width:98%; background:#f7fff7"><strong>Application Description:
+</strong></p>
+</br>
+<p align="justify">The <em>IntelliScholar </em>(version 1.1), developed for <a href="http://www.codeforscience.com/india" target="_new">CodeForScience India</a>, is an application that will provide the users of ScienceDirect a plethora of information corresponding to an article, in a compiled and graphical manner. Whenever a user opens an article, in full-text mode, the <em>IntelliScholar's</em> background service will parse the contents of the article and show the names of the authors with their latest and most-cited articles in tabular format. It also scans through all the references of the current article and shows them  sorted based on the publication date. User can directly access the author's profile and the enlisted articles just by clicking them from the table. In this way the users can access the latest and most cited articles of each of the authors of their interest and remain updated about their current works. Also the sorted reference table gives the user an idea underlying the course of development of the concept elucidated in the article. </p>
+</br>
+<p align="justify">Although the application will be helpful to the users of all subject domains, the true potential of <em>IntelliScholar </em>unravels on pages related to life sciences, where user can search or select any Gene or Protein name to open a hover window which will present a summary of  information related to the selected gene or protein, retrieved from databases of <a href="http://www.ncbi.nlm.nih.gov/" target="_blank">NCBI</a> (National Center for Biotechnology Information). This information is automatically filtered based on the organism names, if found in the article. The user will also be provided with the links to access other resources on NCBI corresponding to the selected term. </p>
+</br>
+<p align="justify">The application analyses the contents received from SciVerse API for selected search term and presents the prominent authors who have published articles on that, with all the accessible details like authors' affiliation and number of articles on the specific search term as well as their total number of articles. All the items on the content tables can be clicked to retrieve further details. This will help the users to further follow their works or even consider working with  them. The journals and institutions having published significant number of articles on the specific gene or protein are also enlisted. This will help to strengthen the interactions within the research fraternity and with the publishers. The application also provide a graphical overview of the trends of research corressponding to the selected gene or protein based on the number of articles published in each year.</p>
+</br>
+<p style="border:double; vertical-align:middle; padding:5px; height:25px; width:98%; background:#f7fff7"><strong>Target Users:
+</strong></p>
+</br>
+<p align="justify">Any user of ScienceDirect can use this application, irrespective of the subject domain of articles. Although the target users of this application will be those who are working on different fields of life sciences like genetic engineering, proteomics, R-DNA technology as well as allied fields of biotechnology, drug discovery and biomedical engineering. This application will satisfy researchers' need by helping them in searching less and discovering more, by providing a compilation of all necessary information at one place to direct their research efforts accordingly.  </p>
+</br>
+<p style="border:double; vertical-align:middle; padding:5px; height:25px; width:98%; background:#f7fff7"><strong> Value of the Application:
+  </strong></p>
+</br>
+<p align="justify"><em>IntelliScholar </em>will make the search and reading experience of SciVerse users much more convenient and efficient, both in terms of available information and time.  This application will fulfill researcher's urge of staying up-to-date on their research areas. Whether by helping professional researchers to find latest publications or by helping prospective students to find the most suitable institutes/labs/supervisors based on their area of research; this application will surely come to the benefit of everyone.</p>
+</br>
+<p style="border:double; vertical-align:middle; padding:5px; height:25px; width:98%; background:#f7fff7"><strong>Integration points: </strong></p>
+</br>
+<p align="justify"><em>IntelliScholar</em> will be integrated on ScienceDirect full-text article page. </p>
+</br>
+<p style="border:double; vertical-align:middle; padding:5px; height:25px; width:98%; background:#f7fff7"><strong>Data Sources</strong>:</p>
+</br>
+<p align="justify">The application uses SciVerse  APIs and databases on NCBI.</p>
+</br>
+<p style="border:double; vertical-align:middle; padding:5px; height:25px; width:98%; background:#f7fff7"><strong>Technical Details:</strong></p>
+</br>
+<p align="justify">The application has been developed and optimized for the <em>latest version</em> of<strong> <a href="http://www.google.com/chrome" target="_new">Google Chrome</a></strong> or <a href="http://www.mozilla.org/en-US/firefox/new/" target="_new">Firefox</a>. Users are requested to use Chrome to experience proper visual effects and unhindered performance of this application. The resources of this application is located on personal domain, hosted on private hosting services. Inconvenience due to any probable downtime, if at all, of hosting services is highly regretted.</p>
+</br>
+<p align="justify">If you find any bugs or visual glitches in <em>IntelliScholar</em> or want to offer any suggestions or feedback for the improvement of the application, feel free to email at <a href="mailto:pinakidey@iitb.ac.in">pinakidey[at]iitb.ac.in.</a></p>
+</br>
+<p style="border:double; vertical-align:middle; padding:5px; height:25px; width:98%; background:#f7fff7"><strong>Introductory video:</strong></p>
+</br>
+<p align="justify">Users can find an introductory video for this application on <a href="http://youtu.be/d1X3uc8ZGzg" target="_new">YouTube</a>.</br>After installing the application <a href="http://www.developers.elsevier.com/action/appDetail/300183" target="_new">here</a>, please click <a href="http://www.sciencedirect.com/science/article/pii/S002228360700366X" target="_new">here</a> to experience this application with its full potential.</p>
+
+</br>
+<iframe align="middle" width="600" height="450" src="http://www.youtube.com/embed/d1X3uc8ZGzg?rel=0" frameborder="0" allowfullscreen></iframe>
+</br>
+</br>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_pinterest_pinit"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-501a9dc91f1df764"></script>
+<!-- AddThis Button END -->
+</br>
+<iframe src="//www.facebook.com/plugins/subscribe.php?href=https%3A%2F%2Fwww.facebook.com%2Fpcdey&amp;layout=button_count&amp;show_faces=true&amp;colorscheme=light&amp;font&amp;width=450&amp;appId=209858619141628" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px;" allowTransparency="true"></iframe>
+</br>
+</body>
+</html>
